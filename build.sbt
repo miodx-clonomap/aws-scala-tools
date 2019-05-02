@@ -1,10 +1,11 @@
 name := "aws-scala-tools"
-organization := "ohnosequences"
+organization := "com.miodx.common"
+version := "0.21.0"
 description := "AWS Scala tools"
 
 bucketSuffix := "era7.com"
 
-crossScalaVersions := Seq("2.11.12", "2.12.4")
+crossScalaVersions := Seq("2.11.12", "2.12.8")
 scalaVersion := crossScalaVersions.value.max
 
 // https://github.com/aws/aws-sdk-java/blob/master/CHANGELOG.md
