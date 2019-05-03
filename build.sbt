@@ -1,11 +1,12 @@
 name := "aws-scala-tools"
-organization := "ohnosequences"
+organization := "com.miodx.common"
+version := "0.19.0"
 description := "AWS Scala tools"
 
 bucketSuffix := "era7.com"
 
-crossScalaVersions := Seq("2.11.11", "2.12.3")
-scalaVersion := crossScalaVersions.value.max
+crossScalaVersions := Seq("2.11.11", "2.12.8")
+scalaVersion := "2.11.11"
 
 val sdkVersion = "1.11.205"
 
