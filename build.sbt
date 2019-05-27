@@ -1,6 +1,6 @@
 name := "aws-scala-tools"
 organization := "com.miodx.common"
-version := "0.19.0"
+version := "0.20.0-SNAPSHOT"
 description := "AWS Scala tools"
 
 bucketSuffix := "era7.com"
@@ -8,7 +8,7 @@ bucketSuffix := "era7.com"
 crossScalaVersions := Seq("2.11.11", "2.12.8")
 scalaVersion := "2.11.11"
 
-val sdkVersion = "1.11.205"
+val sdkVersion = "1.11.560"
 
 val services = Seq(
   "autoscaling",
